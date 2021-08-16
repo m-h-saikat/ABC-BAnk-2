@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Tailwind CSS CDN  -->
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+
+  <title>Document</title>
+</head>
+
+<body class="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500	">
+  <h1 class="text-6xl text-center m-4 text-indigo-800 font-bold mt-20">ABC Bank</h1>
+
+  <div class="section flex justify-center mt-5 ">
+    <div >
+      <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 mt-10 text-2xl ">
+        <div class="mb-4 ">
+          <label class="block text-gray-700 text-2xl font-bold mb-2">
+            Account Number
+          </label>
+          <input class="
+                shadow
+                appearance-none
+                border
+              
+                rounded
+                w-full
+                py-2
+                px-3
+                border-red-400
+                text-blue-400
+                leading-tight
+                focus:outline-none focus:shadow-outline
+              " id="AccountNumber" type="text" placeholder="Account Number" />
+              <p class="text-gray-400 text-xs italic mt-1">For Testing (Acc No:123-456-789)</p>
+        </div>
+        <div class="mb-6">
+          <label class="block text-gray-700 text-sm font-bold mb-2 text-2xl">
+            Password
+          </label>
+          <input class="
+                shadow
+                appearance-none
+                border
+                 border-red-400
+                 text-blue-400
+                rounded
+                w-full
+                py-2
+                px-3
+             
+                leading-tight
+                focus:outline-none focus:shadow-outline
+              " id="Password" type="password" placeholder="**************" />
+              <p class="text-gray-400 text-xs italic">For Testing (Pass:saikat123)</p>
+          <p class="text-red-500 text-xs italic mt-1" id="incorrectPassword"></p>
+        </div>
+        <div class="flex items-center justify-center">
+          <button id="login" class="
+                bg-blue-500
+                hover:bg-blue-700
+                text-white
+                font-bold
+                py-2
+                px-4
+                rounded-full
+                focus:outline-none focus:shadow-outline
+              " type="button" >
+            Login
+          </button>
+        </div>
+      </form>
+     
+    </div>
+  </div>
+  <p class="text-center text-white text-xs">
+    ©2021 ABC Bank. All rights reserved.
+  </p>
+  <script src="Login.js"></script>
+</body>
+
+</html>
